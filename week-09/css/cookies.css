@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@700&family=Noto+Sans&display=swap');
+
+body {
+  color: #222;
+  font-family: "Noto Sans", "Helvetica Neue", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  /* background-color: #ddd; */
+  background: url("../images/funky-lines.webp");
+}
+
+a,
+a:link {
+  color: #875d53;
+}
+
+a:visited {
+  color: #b99b79;
+}
+
+a:hover {
+  color: rgb(87, 127, 171);
+}
+
+a:active {
+  color: rgba(234, 72, 82, 0.9);
+}
+
+h1,
+h2 {
+  font-family: "Mountains of Christmas", "Helvetica Neue", "Arial", sans-serif;
+  font-weight: 700;
+}
+
+ul li {
+  list-style-type: "🍪 ";
+}
+
+#time-and-yield {
+  background-color: rgba(240,240,240,0.5);
+}
+
+abbr[title] {
+  text-decoration-color: rgb(198,79,82);
+  text-decoration-style: wavy;
+}
