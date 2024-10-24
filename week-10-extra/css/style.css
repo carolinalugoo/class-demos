@@ -1,0 +1,41 @@
+body {
+  color: #222;
+}
+
+/* shared properties, so a combined selector is great here! */
+table, 
+th,
+td {
+  border: 3px ridge #ccc;
+  border-collapse: collapse;
+}
+
+/* paddding on the bottom moves the next table away */ 
+table {
+  margin-bottom: 32px;
+}
+
+/* a little padding gives the content a bit of breathing room */
+th,
+td {
+  padding: 4px 8px;
+}
+
+/* instead of using classes to alternate rows... */
+tr:nth-child(even) {
+  color: red;
+}
+
+
+/* old-school way of putting border on a table */
+/* table {
+  border-top: 1px solid #222;
+  border-left: 1px solid #222;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border-bottom: 1px solid #222;
+  border-right: 1px solid #222;
+} */
